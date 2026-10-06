@@ -1,0 +1,1571 @@
+{
+  "version": "3.0.0",
+  "darkMode": true,
+  "gridEnabling": false,
+  "currentViewName": null,
+  "defaultView": {
+    "detailLevel": "All",
+    "relationshipMode": "All",
+    "tablePositions": [
+      {
+        "name": "users",
+        "schemaName": "public",
+        "x": 286.853515625,
+        "y": 12
+      },
+      {
+        "name": "armies",
+        "schemaName": "public",
+        "x": 12,
+        "y": 12
+      },
+      {
+        "name": "datasheets",
+        "schemaName": "public",
+        "x": 569.86376953125,
+        "y": 360
+      },
+      {
+        "name": "datasheet_abilities",
+        "schemaName": "public",
+        "x": 569.86376953125,
+        "y": 12
+      },
+      {
+        "name": "datasheet_datasheet_abilities",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 218
+      },
+      {
+        "name": "datasheet_ability_subrule",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 12
+      },
+      {
+        "name": "core_abilities",
+        "schemaName": "public",
+        "x": 569.86376953125,
+        "y": 186
+      },
+      {
+        "name": "datasheet_core_abilities",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 360
+      },
+      {
+        "name": "weapons",
+        "schemaName": "public",
+        "x": 569.86376953125,
+        "y": 790
+      },
+      {
+        "name": "datasheet_weapons",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 708
+      },
+      {
+        "name": "weapon_abilities",
+        "schemaName": "public",
+        "x": 569.86376953125,
+        "y": 1124
+      },
+      {
+        "name": "weapon_weapon_abilties",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 1056
+      },
+      {
+        "name": "models",
+        "schemaName": "public",
+        "x": 569.86376953125,
+        "y": 1298
+      },
+      {
+        "name": "datasheet_composition",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 1198
+      },
+      {
+        "name": "wargear",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 850
+      },
+      {
+        "name": "datasheet_costs",
+        "schemaName": "public",
+        "x": 1083.8125,
+        "y": 502
+      },
+      {
+        "name": "cwargear",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "cowargear",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "coswargear",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "costwargear",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "costewargear",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "costedwargear",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "costed_wargear",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "wargear_",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "wargear_c",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "wargear_co",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "wargear_cos",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "wargear_cost",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "wargear_costs",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1444
+      },
+      {
+        "name": "wargear_loadouts",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1654
+      },
+      {
+        "name": "wargear_loadout_weapons",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1832
+      },
+      {
+        "name": "wargear_loadout_mweapons",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1832
+      },
+      {
+        "name": "wargear_loadout_moweapons",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1832
+      },
+      {
+        "name": "wargear_loadout_modweapons",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1832
+      },
+      {
+        "name": "wargear_loadout_modeweapons",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1832
+      },
+      {
+        "name": "wargear_loadout_modelweapons",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1832
+      },
+      {
+        "name": "wargear_loadout_model_weapons",
+        "schemaName": "public",
+        "x": 12,
+        "y": 1832
+      },
+      {
+        "name": "army_list",
+        "schemaName": "public",
+        "x": 12,
+        "y": 2042
+      },
+      {
+        "name": "army_list_units",
+        "schemaName": "public",
+        "x": 12,
+        "y": 2284
+      },
+      {
+        "name": "detachments",
+        "schemaName": "public",
+        "x": 12,
+        "y": 2494
+      },
+      {
+        "name": "enhancements",
+        "schemaName": "public",
+        "x": 12,
+        "y": 2736
+      },
+      {
+        "name": "datasheet_keyword",
+        "schemaName": "public",
+        "x": 12,
+        "y": 2946
+      },
+      {
+        "name": "datasheet_datasheet_keywords",
+        "schemaName": "public",
+        "x": 12,
+        "y": 3124
+      },
+      {
+        "name": "army_detachements",
+        "schemaName": "public",
+        "x": 12,
+        "y": 3270
+      },
+      {
+        "name": "army__detachements",
+        "schemaName": "public",
+        "x": 12,
+        "y": 3270
+      },
+      {
+        "name": "army_l_detachements",
+        "schemaName": "public",
+        "x": 12,
+        "y": 3270
+      },
+      {
+        "name": "army_li_detachements",
+        "schemaName": "public",
+        "x": 12,
+        "y": 3270
+      },
+      {
+        "name": "army_lis_detachements",
+        "schemaName": "public",
+        "x": 12,
+        "y": 3270
+      },
+      {
+        "name": "army_list_detachements",
+        "schemaName": "public",
+        "x": 12,
+        "y": 3270
+      }
+    ],
+    "tableGroupCollapseStates": [],
+    "stickyNoteLayouts": [],
+    "referencePaths": [
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "datasheet_datasheet_abilities",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheet_abilities",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_ability_id"
+        ],
+        "secondTableName": "datasheet_datasheet_abilities",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheet_abilities",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_ability_id"
+        ],
+        "secondTableName": "datasheet_ability_subrule",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "datasheet_core_abilities",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "core_abilities",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "core_ability_id"
+        ],
+        "secondTableName": "datasheet_core_abilities",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "datasheet_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapons"
+        ],
+        "secondTableName": "datasheet_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "weapon_weapon_abilties",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapon_abilities",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_ability_id"
+        ],
+        "secondTableName": "weapon_weapon_abilties",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "datasheet_composition",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "datasheet_composition",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheets_id"
+        ],
+        "secondTableName": "datasheet_costs",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "datasheets",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "cwargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "cwargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "cowargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "cowargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "coswargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "coswargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "costwargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "costwargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "costewargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "costewargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "costedwargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "costedwargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "costed_wargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "costed_wargear",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear_",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear_c",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_c",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear_co",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_co",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear_cos",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_cos",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear_cost",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_cost",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear_costs",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_costs",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "wargear_loadouts",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "wargear_loadouts",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "wargear_loadout_id"
+        ],
+        "secondTableName": "wargear_loadout_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_loadout_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "wargear_loadout_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "wargear_loadouts",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "wargear_loadout_id"
+        ],
+        "secondTableName": "wargear_loadout_mweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_loadout_mweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "wargear_loadout_mweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "wargear_loadouts",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "wargear_loadout_id"
+        ],
+        "secondTableName": "wargear_loadout_moweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_loadout_moweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "wargear_loadout_moweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "wargear_loadouts",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "wargear_loadout_id"
+        ],
+        "secondTableName": "wargear_loadout_modweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_loadout_modweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "wargear_loadout_modweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "wargear_loadouts",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "wargear_loadout_id"
+        ],
+        "secondTableName": "wargear_loadout_modeweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_loadout_modeweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "wargear_loadout_modeweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "wargear_loadouts",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "wargear_loadout_id"
+        ],
+        "secondTableName": "wargear_loadout_modelweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_loadout_modelweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "wargear_loadout_modelweapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "wargear_loadouts",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "wargear_loadout_id"
+        ],
+        "secondTableName": "wargear_loadout_model_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "weapons",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "weapon_id"
+        ],
+        "secondTableName": "wargear_loadout_model_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "models",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "model_id"
+        ],
+        "secondTableName": "wargear_loadout_model_weapons",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "users",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "user_id"
+        ],
+        "secondTableName": "army_list",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "army_list",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "army_list",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_list_id"
+        ],
+        "secondTableName": "army_list_units",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "army_list_units",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "detachments",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "datasheet_keyword",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheets",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_id"
+        ],
+        "secondTableName": "datasheet_datasheet_keywords",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "datasheet_keyword",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "datasheet_keyword_id"
+        ],
+        "secondTableName": "datasheet_datasheet_keywords",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "army_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "detachments",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "detachment_id"
+        ],
+        "secondTableName": "army_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "army__detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "detachments",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "detachment_id"
+        ],
+        "secondTableName": "army__detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "army_l_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "detachments",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "detachment_id"
+        ],
+        "secondTableName": "army_l_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "army_li_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "detachments",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "detachment_id"
+        ],
+        "secondTableName": "army_li_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "army_lis_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "detachments",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "detachment_id"
+        ],
+        "secondTableName": "army_lis_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "armies",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_id"
+        ],
+        "secondTableName": "army_list_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "detachments",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "detachment_id"
+        ],
+        "secondTableName": "army_list_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "id"
+        ],
+        "firstTableName": "army_list",
+        "firstSchemaName": "public",
+        "firstRelation": "1",
+        "secondFieldNames": [
+          "army_list_id"
+        ],
+        "secondTableName": "army_list_detachements",
+        "secondSchemaName": "public",
+        "secondRelation": "*",
+        "checkPoints": []
+      }
+    ]
+  },
+  "views": {}
+}
